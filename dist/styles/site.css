@@ -31,14 +31,14 @@ body {
     display: block;
     width: 200px;
     background-color: #16a085;
-    float: right;
+    float: left;
     min-height: 500px;
 }
 
 #main #sidemenu ul li a {
     display: block;
     margin: 2px;
-    padding: 2px;
+    padding: 10px;
     background-color: #CCC;
     font-weight: 100;
     text-decoration: none;
@@ -55,20 +55,66 @@ body {
 
 #main #content {
     display: block;
-    float: right;
+    float: left;
     width: 1050px;
     background-color: #ecf0f1;
-    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
     min-height: 460px;
     padding: 20px;
 }
 
+.product {
+ width: 1020px;
+ height: 140px;
+ margin: 10px;
+padding-top: 20px;
+padding-right: 20px;
+ background-color: #16a085;
+ border: 2px solid rgb(255, 255, 255);
+ border-radius: 25px;
+}
+
+.product img{
+
+    width: 100px;
+    height: 100px;
+    display: block;
+    float: right;
+    margin-left: 20px;
+    border-radius: 15px;
+}
+
+.productHeader{
+
+    margin-right: 10px;
+    display: block;
+    color: #ecf0f1;
+    font-size: large;
+    margin: 10px;
+}
+
+.productDescription{
+ color: bisque;
+ font-size: medium;
+}
+
+.productPrice{
+    color: red;
+    font-size: medium;
+    float: left;
+    margin-left: 10px;
+    margin-top: 50px;
+   }
+   
 #footer {
     clear: both;
     text-align: center;
     margin: 0 auto;
     width: 1300px;
     padding-top: 5px;
+    background-color: red;
+    height: 20px;
 }
 
 /* #footer p{
@@ -78,38 +124,3 @@ body {
 } */
 
 
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
-    #footer p{
-        display: block;
-    }
-}
-
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
-    #footer p{
-        display: block;
-        background-color: red;
-    }
-}
-
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
-    #footer p{
-        display: none;
-    }
-}
-
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
-    #footer p{
-        display: block;
-    }
-}
-
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
-    #footer p{
-        display: block;
-    }
-}
