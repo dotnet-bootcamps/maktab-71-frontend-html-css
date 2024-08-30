@@ -1,5 +1,12 @@
-# frontend (html+css)
-- maktab71-s23
+
+# .NET Bootcamp (Maktab-71) Front-end
+this repository was created for .Net Bootcamp (maktab-sharif #71) and ```is no longer maintained.```
+
+## Lessons Learned
+- Front-end basics
+  - HTML
+  - CSS
+  - ...
 
 
 
